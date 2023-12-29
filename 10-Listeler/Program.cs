@@ -56,6 +56,7 @@
             Console.WriteLine("Toplam:" + sayilar.Sum());
 
 
+
             #endregion
             Console.WriteLine("Hello, World!");
         }

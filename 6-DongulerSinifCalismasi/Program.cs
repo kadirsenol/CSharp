@@ -270,6 +270,7 @@
             #region Girilen sayinin Asal sayi olup olmadigini bulunuz ve devam etmek istiyormu diye sorunuz.
 
             #endregion
+
         }
 
 

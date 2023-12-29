@@ -15,6 +15,7 @@
                 toplam += sayilar[i];
             }
             return toplam / sayilar.Length;
+
         }
     }
 }

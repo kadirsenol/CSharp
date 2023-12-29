@@ -34,6 +34,7 @@
             {
                 if (paragraf.ToLower().Contains(item.ToLower()))
                     return true;
+
             }
 
             return false;

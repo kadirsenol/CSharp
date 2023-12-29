@@ -213,6 +213,7 @@ namespace _17_GenelTekrarHazirMetodlar
             List<decimal> liste4 = new List<decimal>();
             liste2[1] = "qwe"; // Listeler dizi gibi de davranir
 
+
             #endregion
         }
     }

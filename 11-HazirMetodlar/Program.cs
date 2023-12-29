@@ -140,6 +140,7 @@
             #region Math Kutuphanesi
 
 
+
             //Console.WriteLine(Math.PI);
             //Console.WriteLine(Math.E);
             ////Ceiling => Verilen ondalikli sayiyi bir uste yuvarlar

@@ -21,6 +21,7 @@ Ikinci Satir ";
             Console.WriteLine(str);
 
             Console.WriteLine(str2);
+
         }
 
     }

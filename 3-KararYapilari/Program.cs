@@ -388,6 +388,7 @@
             // Yukaridaki kodun yerine daha kisa olarak asagidaki kod yazilabliir
             gsm = tel.Length >= 10 ? tel : "";
             #endregion
+
         }
 
     }

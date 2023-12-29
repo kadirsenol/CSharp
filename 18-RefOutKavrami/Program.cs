@@ -81,6 +81,7 @@
             catch (Exception ex)
             {
 
+
                 Console.WriteLine("Hata Olustu");
             }
         }

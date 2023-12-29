@@ -1,4 +1,4 @@
-﻿using Bogus;
+﻿//using Bogus;
 
 namespace _16_GenelTekrar
 {
@@ -231,33 +231,33 @@ namespace _16_GenelTekrar
             #region  Sorular
             // Bir Siniftaki ogrencilerin ad soyad,tcno , dogum tarihlerini ve gsm numaralarini tutacak 
             //Listelerle yapiniz
-            List<string> adSoyad = new List<string>();
-            List<string> tcnolar = new List<string>();
-            List<DateTime> dogumTarihleri = new List<DateTime>();
-            List<string> gsmler = new List<string>();
-            a = 20;
-            b = 30;
-            Console.WriteLine(a + b.ToString()); // Biri integer digeri string olan ifadede + operatoru string birlestirmesi yapar;
+            //List<string> adSoyad = new List<string>();
+            //List<string> tcnolar = new List<string>();
+            //List<DateTime> dogumTarihleri = new List<DateTime>();
+            //List<string> gsmler = new List<string>();
+            //a = 20;
+            //b = 30;
+            //Console.WriteLine(a + b.ToString()); // Biri integer digeri string olan ifadede + operatoru string birlestirmesi yapar;
 
-            Faker faker = new Faker();
-            for (int i = 0; i < 20; i++)
-            {
-                adSoyad.Add(faker.Person.FirstName + " " + faker.Person.LastName);
-                string tc = "1234567891" + i;
-                tcnolar.Add(tc);
-                dogumTarihleri.Add(faker.Person.DateOfBirth);
-                gsmler.Add(faker.Person.Phone);
+            //Faker faker = new Faker();
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    adSoyad.Add(faker.Person.FirstName + " " + faker.Person.LastName);
+            //    string tc = "1234567891" + i;
+            //    tcnolar.Add(tc);
+            //    dogumTarihleri.Add(faker.Person.DateOfBirth);
+            //    gsmler.Add(faker.Person.Phone);
 
-            }
-            for (int i = 0; i < 20; i++)
-            {
-                Console.Write(adSoyad[i] + "\t");
-                Console.Write(tcnolar[i] + "\t");
-                Console.Write(dogumTarihleri[i] + "\t");
-                Console.Write(gsmler[i] + "\t \n");
+            //}
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    Console.Write(adSoyad[i] + "\t");
+            //    Console.Write(tcnolar[i] + "\t");
+            //    Console.Write(dogumTarihleri[i] + "\t");
+            //    Console.Write(gsmler[i] + "\t \n");
 
 
-            }
+            //}
 
             #endregion
         }

@@ -21,6 +21,7 @@
             foreach (var urun in products)
             {
 
+
                 var satir = urun.Split(';');
                 UrunIdleri.Add(int.Parse(satir[0]));
                 UrunIsimleri.Add(satir[1]);

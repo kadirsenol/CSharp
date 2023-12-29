@@ -11,14 +11,14 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing && (components != null))
+        //    {
+        //        components.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
 
         #region Windows Form Designer generated code
 
@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnKaydet = new System.Windows.Forms.Button();
-            this.chkCinsiyet = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtAd = new System.Windows.Forms.TextBox();
-            this.dtDogumTarihi = new System.Windows.Forms.DateTimePicker();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.SuspendLayout();
+            //this.label4 = new System.Windows.Forms.Label();
+            //this.btnKaydet = new System.Windows.Forms.Button();
+            //this.chkCinsiyet = new System.Windows.Forms.CheckBox();
+            //this.label1 = new System.Windows.Forms.Label();
+            //this.label3 = new System.Windows.Forms.Label();
+            //this.txtAd = new System.Windows.Forms.TextBox();
+            //this.dtDogumTarihi = new System.Windows.Forms.DateTimePicker();
+            //this.txtSoyad = new System.Windows.Forms.TextBox();
+            //this.label2 = new System.Windows.Forms.Label();
+            //this.groupBox1 = new System.Windows.Forms.GroupBox();
+            //this.groupBox1.SuspendLayout();
+            //this.SuspendLayout();
             // 
             // label4
             // 
@@ -58,7 +58,7 @@
             this.btnKaydet.TabIndex = 0;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
-            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            //this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // chkCinsiyet
             // 
@@ -138,15 +138,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.ResumeLayout(false);
+            //this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //this.ClientSize = new System.Drawing.Size(800, 450);
+            //this.Controls.Add(this.groupBox1);
+            //this.Name = "Form1";
+            //this.Text = "Form1";
+            //this.groupBox1.ResumeLayout(false);
+            //this.groupBox1.PerformLayout();
+            //this.ResumeLayout(false);
 
         }
 

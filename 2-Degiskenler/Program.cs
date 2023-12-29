@@ -135,6 +135,7 @@ qwesdlkfsjdf  ";
             //Console.WriteLine($"{ad} {soyad}  {Cinsiyet} {DogumTarihi} {tcno}");
             //Console.WriteLine("{0} {1} {2}", ad, soyad, Cinsiyet);
             #endregion
+
         }
     }
 }

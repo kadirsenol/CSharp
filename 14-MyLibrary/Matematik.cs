@@ -146,6 +146,7 @@
             Console.WriteLine($"Birinci Sayinin Karesi :{Math.Pow(sayi1, 2)}");
             Console.WriteLine($"Ikinci Sayinin Karesi :{Math.Pow(sayi2, 2)}");
 
+
         }
 
     }

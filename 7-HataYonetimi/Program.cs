@@ -72,36 +72,36 @@ namespace _7_HataYonetimi
             //Console.WriteLine("Hello, World!");
 
             //finnaly ile kullanimi
-            SqlConnection connection;
-            SqlCommand command;
-            string constr = @"Server=.;Database=Northwind;Trusted_Connection=True;";
-            connection = new SqlConnection(constr);
-            string sql = "Select * from Shippers";
+            //SqlConnection connection;
+            //SqlCommand command;
+            //string constr = @"Server=.;Database=Northwind;Trusted_Connection=True;";
+            //connection = new SqlConnection(constr);
+            //string sql = "Select * from Shippers";
 
-            try
-            {
-                // Denenecek kodlar burada olmasi gerekir
-                // Connection string
-                connection.Open();
-                command = connection.CreateCommand();
-                command.CommandText = sql;
-                SqlDataReader rdr = command.ExecuteReader();
-                while (rdr.Read())
-                {
-                    Console.WriteLine(rdr[0] + " " + rdr["CompanyName"] + " " + rdr["Phone"]);
-                }
-            }
-            catch (Exception ex)
-            {
+            //try
+            //{
+            //    // Denenecek kodlar burada olmasi gerekir
+            //    // Connection string
+            //    connection.Open();
+            //    command = connection.CreateCommand();
+            //    command.CommandText = sql;
+            //    SqlDataReader rdr = command.ExecuteReader();
+            //    while (rdr.Read())
+            //    {
+            //        Console.WriteLine(rdr[0] + " " + rdr["CompanyName"] + " " + rdr["Phone"]);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
 
-                Console.WriteLine(ex.Message);
-                // Hata olustugunda burasi calisacak 
-            }
-            finally
-            {
-                // Hata olsun olmasin mutlaka calisir
-                connection.Close();
-            }
+            //    Console.WriteLine(ex.Message);
+            //    // Hata olustugunda burasi calisacak 
+            //}
+            //finally
+            //{
+            //    // Hata olsun olmasin mutlaka calisir
+            //    connection.Close();
+           // }
         }
     }
 }
