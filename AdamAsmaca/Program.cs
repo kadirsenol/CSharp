@@ -22,6 +22,7 @@ namespace oyunarsaloto
             }
             Console.WriteLine("Bulmanı Gereken Gizli Kelime:" + gizlikelime);
             int hak = 5;
+            bool flag = false;
             for (int i = 0; i < hak; i++)
             {
                 Console.WriteLine($@"Bir harf tahmin edin, tahmin hakkınız:{hak-i}");
@@ -42,20 +43,25 @@ namespace oyunarsaloto
                     {
                         Console.WriteLine("Tebrikler Bir Harf Bildiniz: " +
                        gizlikelime);
+                        i--;
                     }
-                    i--;
-                }
-                else
-                {
-                    continue;
-                }
+                    
+                    }
+                    else
+                    {
+                        if (i == 4)
+                        {
+                            Console.WriteLine("Maalesef hakkınız sona erdi.. :(");
+                        }
+                        continue;
+                    }
                 if (gizlikelime == secilenkelime)
                 {
                     Console.WriteLine("Tebrikler. Kelimeyi Buldunuz! :) "+secilenkelime.ToUpper());
                     break;
                 }
+                  
             }
-            Console.WriteLine("Maalesef 5 hakkınız bitti.. :(");
         }
     }
 }
