@@ -11,7 +11,6 @@ namespace oyunarsaloto
                 "kale","bilgisayar","yazılım","tablo","kitap","oyun","lamba",
                 "kalem","masa","telefon"
             };
-
             Console.WriteLine("Listeden bir kelime seçmek için 1-10 arası rakam giriniz:");
             int numara =int.Parse(Console.ReadLine());
             string kelime = liste[numara-1];

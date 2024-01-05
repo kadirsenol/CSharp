@@ -57,7 +57,6 @@ namespace CSandSQL
 
 
             return sqltablocumle;
-
         }
         public static List<string> SqlInsertCumleOlustur()
         {

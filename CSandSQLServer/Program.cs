@@ -1,5 +1,4 @@
 ﻿using Microsoft.Data.SqlClient;
-
 namespace _20_DosyaOkumaVeStruct
 {
     internal class Program
@@ -17,6 +16,7 @@ namespace _20_DosyaOkumaVeStruct
 
             var filmler2 = File.ReadAllLines(@"..\..\..\Filmler.csv");
             var index = 0;
+
             foreach (var film in filmler2)
             {
                 if (index == 0)
